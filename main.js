@@ -43,7 +43,7 @@ function checkWin() {
             gameEnded = true;
 
             setTimeout(function() {
-                alert(playerSymbol + " wins!");
+                alert('Игра окончена! Кто выиграл - тот молодец!');
             }, 500); 
         } 
     } 
